@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: otica-visao-em-foco
+    runtime: static
+    buildCommand: echo "static site, no build"
+    staticPublishPath: .
